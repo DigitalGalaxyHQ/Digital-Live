@@ -1,0 +1,88 @@
+{
+    "channels": [
+        {
+            "id": 1,
+            "name": "CNN",
+            "logo": "https://logo.clearbit.com/cnn.com",
+            "category": "news",
+            "url": "https://example.com/cnn.m3u8"
+        },
+        {
+            "id": 2,
+            "name": "ESPN",
+            "logo": "https://logo.clearbit.com/espn.com",
+            "category": "sports",
+            "url": "https://example.com/espn.m3u8"
+        },
+        {
+            "id": 3,
+            "name": "HBO",
+            "logo": "https://logo.clearbit.com/hbo.com",
+            "category": "movies",
+            "url": "https://example.com/hbo.m3u8"
+        },
+        {
+            "id": 4,
+            "name": "Discovery Channel",
+            "logo": "https://logo.clearbit.com/discovery.com",
+            "category": "entertainment",
+            "url": "https://example.com/discovery.m3u8"
+        },
+        {
+            "id": 5,
+            "name": "Cartoon Network",
+            "logo": "https://logo.clearbit.com/cartoonnetwork.com",
+            "category": "kids",
+            "url": "https://example.com/cartoonnetwork.m3u8"
+        },
+        {
+            "id": 6,
+            "name": "BBC News",
+            "logo": "https://logo.clearbit.com/bbc.com",
+            "category": "news",
+            "url": "https://example.com/bbc.m3u8"
+        },
+        {
+            "id": 7,
+            "name": "Fox Sports",
+            "logo": "https://logo.clearbit.com/foxsports.com",
+            "category": "sports",
+            "url": "https://example.com/foxsports.m3u8"
+        },
+        {
+            "id": 8,
+            "name": "National Geographic",
+            "logo": "https://logo.clearbit.com/nationalgeographic.com",
+            "category": "entertainment",
+            "url": "https://example.com/natgeo.m3u8"
+        },
+        {
+            "id": 9,
+            "name": "Nickelodeon",
+            "logo": "https://logo.clearbit.com/nick.com",
+            "category": "kids",
+            "url": "https://example.com/nickelodeon.m3u8"
+        },
+        {
+            "id": 10,
+            "name": "MTV",
+            "logo": "https://logo.clearbit.com/mtv.com",
+            "category": "music",
+            "url": "https://example.com/mtv.m3u8"
+        },
+        {
+            "id": 11,
+            "name": "Bloomberg",
+            "logo": "https://logo.clearbit.com/bloomberg.com",
+            "category": "news",
+            "url": "https://example.com/bloomberg.m3u8"
+        },
+        {
+            "id": 12,
+            "name": "Disney Channel",
+            "logo": "https://logo.clearbit.com/disneychannel.disney.com",
+            "category": "kids",
+            "url": "https://example.com/disney.m3u8"
+        }
+    ]
+}
