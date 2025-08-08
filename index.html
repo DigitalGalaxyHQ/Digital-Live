@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>StreamTV - Live TV Channels</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="logo">
+                <i class="fas fa-tv"></i>
+                <span>StreamTV</span>
+            </div>
+            <nav class="nav">
+                <ul>
+                    <li><a href="#" class="active">Home</a></li>
+                    <li><a href="#">Categories</a></li>
+                    <li><a href="#">Favorites</a></li>
+                    <li><a href="#">Guide</a></li>
+                </ul>
+            </nav>
+            <div class="search">
+                <input type="text" placeholder="Search channels...">
+                <button><i class="fas fa-search"></i></button>
+            </div>
+        </div>
+    </header>
+
+    <main class="main">
+        <div class="container">
+            <section class="featured-channel">
+                <div class="player-container">
+                    <video id="main-player" controls>
+                        <source src="" type="application/x-mpegURL">
+                        Your browser does not support the video tag.
+                    </video>
+                    <div class="player-info">
+                        <h2 id="current-channel">Select a channel to start streaming</h2>
+                        <div class="player-controls">
+                            <button id="fullscreen-btn"><i class="fas fa-expand"></i></button>
+                            <button id="volume-btn"><i class="fas fa-volume-up"></i></button>
+                            <button id="favorite-btn"><i class="far fa-heart"></i></button>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="channel-categories">
+                <h2>Categories</h2>
+                <div class="category-tabs">
+                    <button class="category-tab active" data-category="all">All Channels</button>
+                    <button class="category-tab" data-category="news">News</button>
+                    <button class="category-tab" data-category="sports">Sports</button>
+                    <button class="category-tab" data-category="entertainment">Entertainment</button>
+                    <button class="category-tab" data-category="movies">Movies</button>
+                    <button class="category-tab" data-category="kids">Kids</button>
+                </div>
+            </section>
+
+            <section class="channel-grid">
+                <!-- Channels will be loaded here dynamically -->
+            </section>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>StreamTV</h3>
+                    <p>Your gateway to live television from around the world.</p>
+                </div>
+                <div class="footer-section">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#">Contact</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">Terms of Service</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Connect</h3>
+                    <div class="social-icons">
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>&copy; 2023 StreamTV. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/hls.js@latest"></script>
+</body>
+                              </html>
